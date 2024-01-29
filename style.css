@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(159, 182, 245);
+    min-height: 100vh;
+}
+.contain{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+   
+    
+}
+.presentation{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+h1, h2{
+    text-align: center;
+    font-size: 3rem;
+}
+h3{
+    text-align: center;
+    font-size: 2rem;
+}
+
+section p{
+    margin-top: 50px;
+}
