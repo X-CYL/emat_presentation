@@ -1,30 +1,46 @@
-body{
-    background-color: rgb(159, 182, 245);
-    min-height: 100vh;
-}
-.contain{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    
-   
-    
-}
-.presentation{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+body {
+  background-color: rgb(151, 192, 255);
+  min-height: 100vh;
 }
 
-h1, h2{
-    text-align: center;
-    font-size: 3rem;
-}
-h3{
-    text-align: center;
-    font-size: 2rem;
+.presentation {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
-section p{
-    margin-top: 50px;
+section p {
+  margin-top: 50px;
 }
+
+.lLogo {
+  max-width: 50px;
+  max-height: 30px;
+}
+
+.bg-menu {
+  background-color: rgb(232, 246, 255);
+}
+
+.bg-footer {
+  background-color: rgb(232, 246, 255);
+}
+
+.hover:hover {
+  background-color: rgba(14, 243, 52, 0.342);
+  transition: background 1s;
+  transition-delay: 0, 7s;
+}
+
+.photo-site {
+  max-width: 70%;
+}
+
+.photo-site2 {
+  max-width: 50%;
+}
+
+.lLogo2 {
+  max-width: 130px;
+  max-height: 100px;
+}/*# sourceMappingURL=style.css.map */

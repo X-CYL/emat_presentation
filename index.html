@@ -5,43 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name = "author" content = "x-cyl SCHIARATURA Ludovic" >
-    <link rel="shortcut icon" href="./pictures/misc/logo RDC.ico"/>
+    <link rel="shortcut icon" href="./pictures/misc/logo RDC.png"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="./style.css" rel="stylesheet">
     
     <title>accueil</title>
 </head>
 <body class="d-flex flex-column">
-    <div class="container">
+    <div class="fixed-top container text-black bg-menu fs-5 rounded-4">
           <div class="row">
-            <div  class="col col-lg-2 col-sm-4" >
-              <a href="./pages/presentation/presentation.html">Presentation</a>
+            <div class="col col-lg-1 col-sm-4" >
+              <a class="btn btn text-success fs-5 hover" href="./index.html">Acceuil</a>
             </div>
-            
-            <div class="dropdown col col-lg-2 col-sm-4">
-              <a class="nav-link dropdown-toggle" href="#" role="button" id="deroulanta" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu site</a>
-              <div class="dropdown-menu" aria-labelledby="deroulanta">
-                <a class="dropdown-item disabled" href="./index.html">Acceuil</a>
-                <a class="dropdown-item disabled" href="#">Configuration</a>
-                <a class="dropdown-item disabled" href="#">equipement</a>
+            <div class="col col-lg-2">
+              <a class="btn text-success fs-5 hover" href="./pages/presentation/presentation.html">Presentation</a>
+            </div>
+            <div class="dropdown col col-lg-8 col-sm-4">
+              <a class="nav-link dropdown-toggle pt-2 text-success" href="#" role="button" id="deroulanta" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu Tutos</a>
+              <div class="dropdown-menu bg-menu" aria-labelledby="deroulanta">
+                <a class="dropdown-item hover" href="./pages/Connexion/connexion.html">Connexion</a>
+                <a class="dropdown-item hover" href="#">Configuration</a>
+                <a class="dropdown-item hover" href="#">equipement</a>
               </div>
             </div>
           </div>
         </div>
+        </div>
           <div class="position-absolute top-50 start-50 translate-middle">
-            <h1>Documentation sur l’utilisation de l’application:</h1>
+            <h1 class="fs-1 text-center">Documentation sur l’utilisation de l’application:</h1>
             <img class="img-fluid rounded mx-auto d-block" src="./pictures/misc/logo mcs.jpg" alt="logo entreprise MCS">
-            <h2>e-mat</h2>
+            <h2 class="fs-1 text-center">e-mat</h2>
         </div>
       
-      <footer class="mt-auto">
-        <div class="container text-center fst-italic fs-5 pt-5">
-            <p>x-cyl</p>     
+      <footer class="container mt-auto rounded-4 bg-footer">
+        <div class="container row text-center fst-italic fs-5 pt-1 justify-content-center">
+            <p class="col col-xl-1">x-cyl</p> 
+            <div class="col col-xl-1">
+              <img class="lLogo" src="./pictures/misc/logo_linkedin.png"> 
+            </div>
         </div>  
     </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    
 </body>
 </html>
