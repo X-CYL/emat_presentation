@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="../../style.css" rel="stylesheet">
     
-    <title>Présentation</title>
+    <title>Interface appli</title>
 </head>
 <body class="d-flex flex-column">
     <div class="fixed-top container text-black bg-menu fs-5 rounded-4">
@@ -50,7 +50,52 @@
         <p class="mt-2">Et, d’une barre plus fine sur la gauche en dessous des deux autres qui est une barre d’icônes de travail ou l’on va pouvoir interagir avec les contrats, OR , etc….</p>
         <img class="img-fluid photo-site mx-auto d-block mt-2" src="../../pictures/presentation/barre icones travail.JPG" alt="">
     </div>
-    
+    <div class="presentation mt-5 align-items-center">
+        <h3 class="fs-3 mt-4">Lire la fenêtre d'acceuil </h3>
+    </div>
+    <div class="container justify-content-center">
+        <p class="mt-5">Au centre de l’écran apparaît une fenêtre principale d’ état qui reprend tout  ce qui est en cours ou en attente de validation.</p>
+    <img class="img-fluid photo-site mx-auto d-block mt-4" src="../../pictures/presentation/fenetre d etat.JPG" alt="fenêtre d'etat a louverture emat">
+    <p class="mt-4">Elle est composée de plusieurs barres ouvrantes qui permettent de faire des recherches. La barre d’actions qui est ouverte par default et qui  montre :</p>
+    <ul>
+        <li class="fw-bold">Les contrats en cours</li>
+            <ul>
+                <li>-Rien à dire là-dessus, c’est juste un état des lieux</li>
+            </ul>
+        <li class="fw-bold mt-3">Le livraisons du jour à réaliser</li>
+            <ul>
+                <li>-Lorsque des contrats sont prévus à une date de livraison mais qu’ils n’ont pas été validés, ils apparaissent ici.</li>
+            </ul>
+        <li class="fw-bold mt-3">Les livraisons en retard</li>
+            <ul>
+                <li>-Lorsque la date de livraison est dépassée, et que les contrats ne sont pas validés, ils apparaissent ici.
+                    Il faut aller vérifier à chaque fin de mois pour checker s’il est normal qu’ils se trouvent encore là. Ca peut-être un oubli de validation, ou un report de livraison qui entraine une mise en location ultérieure, auquel cas il peut rester ici.</li>
+                <img class="img-fluid photo-site mx-auto d-block mt-4" src="../../pictures/presentation/contrats en retatd.JPG" alt="Fenetre des contrats en retard de livraison">
+                <p class="text-center fst-italic">Un exemple ci dessus lorsque j’ai cliqué sur la flèche verte qui se trouve à côté de la ligne « livraisons en retard »</p>
+                <p>On se rend bien compte ici que les dates sont dépassées et qu’il faut s’inquiéter de savoir s’il est normal d’avoir encore toute ces lignes ici, ou, il s’agit peut-être d’un oubli et qu’il faut aller valider le contrat en question pour démarrer la location</p>
+            </ul>
+        <li class="fw-bold">Les contrats se terminant ce jour</li>
+            <ul>
+                <li>-Ce sont les contrats qui arrivent à la date de fin de location prévue ce jour . Attention, il faut que cette date soit informée dans le contrat de départ, sinon ça ne fonctionne pas</li>
+            </ul>
+        <li class="fw-bold mt-3">Les retours en retard</li>
+            <ul>
+                <li>-Idem ci-dessus, sauf qu’ils arrivent ici une fois que la date du retour est dépassée</li>
+                <img class="img-fluid photo-site mx-auto d-block mt-4" src="../../pictures/presentation/contrat en retard de retour.JPG" alt="fenetre montrant les contrats en retard de retour">
+                <p class="mt-3">On peut voir ci-dessus que la date de retour prévue est dépassée, on peut à se stade aller sur le contrat d’origine et changer la date de retour prévue pour être  plus en adéquation avec la réalité</p>
+                <p>On peut voir également la couleur bleue des lignes, cette couleur signifie que le contrat est en cours de location. Tout cela sera vu en détail plus loin.</p>
+            </ul>
+        <li class="fw-bold">Les enlèvements du jour</li>
+            <ul>
+                <li>-Les enlèvements prévus qu’il faut réaliser ce jour</li>
+            </ul>
+        <li class="fw-bold mt-3">Les enlèvements en retard</li>
+            <ul>
+                <li>-Les enlèvements qui auraient dû être effectués se stockent ici.</li>
+            </ul>
+    </ul>
+    </div>
+    <a class="text-center mb-5 text-danger" href="./interface.html">Haut de page</a>
     <footer class="container mt-auto rounded-4 bg-footer">
         <div class="container row text-center fst-italic fs-5 pt-1 justify-content-center">
             <p class="col col-xl-1">x-cyl</p> 
@@ -62,5 +107,6 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="../../scripts.js"></script>
 </body>
 </html>

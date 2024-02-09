@@ -36,9 +36,16 @@ section p{
 .photo-site{
     max-width: 70%;
 }
+.photo-site:hover{
+    max-width: 90%;
+}
 .photo-site2{
     max-width: 50%;
 }
+.photo-site2:hover{
+    max-width: 80%;
+}
+
 .lLogo2{
     max-width: 130px;
     max-height: 100px;
